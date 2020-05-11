@@ -2,6 +2,8 @@ package application.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -20,13 +22,13 @@ public class Faculty {
 	@Column (name = "faculty_name")
 	private FacultyName facultyName;
 	
-	@Column (name = "first_subject")
+	@Enumerated (EnumType.STRING)
 	private Subjects firstSubject;
 	
-	@Column (name = "second_subject")
+	@Enumerated (EnumType.STRING)
 	private Subjects secondSubject;
 	
-	@Column (name = "third_subject")
+	@Enumerated (EnumType.STRING)
 	private Subjects thirdSubject;
 
 	public Faculty() {}
