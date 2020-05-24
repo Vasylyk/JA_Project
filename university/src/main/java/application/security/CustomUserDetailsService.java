@@ -23,7 +23,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		Optional<User> userOptional = userRepository.findByEmail(email);
 		if (userOptional.isPresent()) {
 			User user = userOptional.get();
-			return new CustomUserDetails(user, Collections.singletonList(user.getUserRole().toString()));
+			return new CustomUserDetails(user, Collections.singletonList("ROLE_" + user.getUserRole().toString()));
 		}
 		
 		throw new UsernameNotFoundException("User wiht email "+ email+" don`t exist!");
