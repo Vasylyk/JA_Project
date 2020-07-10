@@ -7,8 +7,12 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
+import application.domain.Faculty;
+import application.domain.Subjects;
 import application.domain.User;
+import application.service.FacultyService;
 import application.service.UserService;
 
 @Controller
@@ -16,6 +20,9 @@ public class UserController {
 	
 	@Autowired
 	private UserService userService;
+	
+	@Autowired
+	private FacultyService facultyService;
 	
 	 @RequestMapping(value = "/registration", method = RequestMethod.GET)
 	 public String registration(Model model) {
@@ -47,5 +54,15 @@ public class UserController {
 	 @RequestMapping(value ="/home", method = RequestMethod.GET)
 	 public String welcome(Model model) {
 	     return "home";
+	 }
+	 
+	 @RequestMapping(value ="/create-faculty", method = RequestMethod.GET)
+	    public ModelAndView createFaculty() {
+	    	ModelAndView modelAndView = new ModelAndView();
+	    	modelAndView.setViewName("createFaculty");
+	    	modelAndView.addObject("subjects", Subjects.values());
+	    	modelAndView.addObject("faculty", new Faculty());
+	    
+	    	return modelAndView;
 	 }
 }
