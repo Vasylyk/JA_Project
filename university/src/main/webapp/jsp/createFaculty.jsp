@@ -37,9 +37,16 @@
 				<form:form method="POST" action="${contextPath}/addFaculty"
 					modelAttribute="faculty">
 					<table>
+							
 						<tr>
 							<td><form:label path="facultyName">Faculty name: </form:label></td>
-							<td><form:input type="text" path="facultyName" /></td>
+							<td>
+							<select name="facultyName">
+								<c:forEach items="${facultyNames}" var="facultyName">
+									<option name="facultyName">${facultyName }</option>
+								</c:forEach>
+							</select>
+							</td>
 						</tr>
 
 						<tr>
@@ -47,7 +54,38 @@
 							<td><form:input path="numberOfStudents" /></td>
 						</tr>
 
-					
+						<tr>
+							<td><form:label path="firstSubject">First subject: </form:label></td>
+							<td>
+							<select name="firstSubject">
+								<c:forEach items="${subjects}" var="subject">
+									<option name="subject">${subject }</option>
+								</c:forEach>
+							</select>
+							</td>
+						</tr>
+						
+						<tr>
+							<td><form:label path="secondSubject">Second subject: </form:label></td>
+							<td>
+							<select name="secondSubject">
+								<c:forEach items="${subjects}" var="subject">
+									<option name="subject">${subject }</option>
+								</c:forEach>
+							</select>
+							</td>
+						</tr>
+						
+						<tr>
+							<td><form:label path="thirdSubject">Third subject: </form:label></td>
+							<td>
+							<select name="thirdSubject">
+								<c:forEach items="${subjects}" var="subject">
+									<option name="subject">${subject }</option>
+								</c:forEach>
+							</select>
+							</td>
+						</tr>
 
 						<tr>
 							<td><input type="submit" value="Submit" /></td>

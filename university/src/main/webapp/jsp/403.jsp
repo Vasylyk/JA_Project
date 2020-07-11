@@ -9,13 +9,20 @@
 <body>
 	<div>
 		<div>
-				<h3>Error!!!</h3>
+				<h3>You havn't access to this page!</h3>
+		
 		</div>
+		
+			<form action="/home" method="post">
+				<input type="submit" value="Go to home page"/>
+				<input type="hidden" name="${_csrf.parameterName}" value ="${_csrf.token}"/>
+			</form>
+		
 			<form action="/logout" method="post">
 				<input type="submit" value="Sign in as different user"/>
 				<input type="hidden" name="${_csrf.parameterName}" value ="${_csrf.token}"/>
 			</form>
 	
-	</div>
+		</div>
 </body>
 </html>
