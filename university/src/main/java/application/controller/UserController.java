@@ -13,7 +13,6 @@ import application.domain.Faculty;
 import application.domain.FacultyName;
 import application.domain.Subjects;
 import application.domain.User;
-import application.service.FacultyService;
 import application.service.UserService;
 
 @Controller
@@ -21,9 +20,6 @@ public class UserController {
 	
 	@Autowired
 	private UserService userService;
-	
-	@Autowired
-	private FacultyService facultyService;
 	
 	 @RequestMapping(value = "/registration", method = RequestMethod.GET)
 	 public String registration(Model model) {
