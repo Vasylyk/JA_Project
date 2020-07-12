@@ -7,11 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
-import application.domain.Faculty;
-import application.domain.FacultyName;
-import application.domain.Subjects;
 import application.domain.User;
 import application.service.UserService;
 
@@ -58,14 +54,5 @@ public class UserController {
 	     return "home";
 	 }
 	 
-	 @RequestMapping(value ="/create-faculty", method = RequestMethod.GET)
-	    public ModelAndView createFaculty() {
-	    	ModelAndView modelAndView = new ModelAndView();
-	    	modelAndView.setViewName("createFaculty");
-	    	modelAndView.addObject("subjects", Subjects.values());
-	    	modelAndView.addObject("faculty", new Faculty());
-	    	modelAndView.addObject("facultyNames", FacultyName.values());
-	    
-	    	return modelAndView;
-	 }
+	 
 }

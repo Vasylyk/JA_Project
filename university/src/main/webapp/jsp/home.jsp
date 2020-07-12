@@ -27,7 +27,7 @@
 			<h3 class="w3-bar-item">Menu</h3>
 			<a href="/home" class="w3-bar-item w3-button">Home</a> 
 			<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
-			<a href="#" class="w3-bar-item w3-button">Registration on faculty</a>
+			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
 		</div>
 	
 	<!-- Page Content -->
@@ -37,7 +37,7 @@
 	</div>
 			
 	
-	<div style="margin-left: 12%">
+	<div style="margin-left: 2%">
 		<c:if test="${pageContext.request.userPrincipal.name != null}">
         <form id="logoutForm" method="POST" action="${contextPath}/logout">
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
