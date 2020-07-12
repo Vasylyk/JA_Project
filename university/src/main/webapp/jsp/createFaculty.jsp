@@ -29,7 +29,17 @@
 		<!-- Page Content -->
 		<div style="margin-left: 10%">
 			<div class="w3-container w3-teal">
-				<h1>Create new faculty</h1>
+				<h2 style="float: left">Create Faculty</h2>
+				<div style="text-align: end">
+					<c:if test="${pageContext.request.userPrincipal.name != null}">
+        				<form id="logoutForm" method="POST" action="${contextPath}/logout">
+            				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+        				</form>
+
+        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
+
+    				</c:if>
+				</div>
 			</div>
 
 			<div class="w3-container">
