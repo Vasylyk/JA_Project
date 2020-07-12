@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table (name = "faculies")
+@Table (name = "faculties")
 public class Faculty {
 	@Id
 	@GeneratedValue (strategy = GenerationType.AUTO)
@@ -20,14 +20,18 @@ public class Faculty {
 	private Integer numberOfStudents;
 	
 	@Column (name = "faculty_name")
+	@Enumerated (EnumType.STRING)
 	private FacultyName facultyName;
 	
+	@Column (name = "first_subject")
 	@Enumerated (EnumType.STRING)
 	private Subjects firstSubject;
 	
+	@Column (name = "second_subject")
 	@Enumerated (EnumType.STRING)
 	private Subjects secondSubject;
 	
+	@Column (name = "third_subject")
 	@Enumerated (EnumType.STRING)
 	private Subjects thirdSubject;
 
