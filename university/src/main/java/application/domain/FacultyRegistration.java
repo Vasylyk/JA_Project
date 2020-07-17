@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -34,6 +35,9 @@ public class FacultyRegistration {
 	
 	@Column(name = "third_subject_mark")
 	private Integer thirdSubjectMark;
+	
+	@Lob
+	private String encodedImage;
 	
 	@Transient
 	private String userEmail;
@@ -126,6 +130,14 @@ public class FacultyRegistration {
 
 	public void setFacultyId(Integer facultyId) {
 		this.facultyId = facultyId;
+	}
+
+	public String getEncodedImage() {
+		return encodedImage;
+	}
+
+	public void setEncodedImage(String encodedImage) {
+		this.encodedImage = encodedImage;
 	}
 
 	@Override

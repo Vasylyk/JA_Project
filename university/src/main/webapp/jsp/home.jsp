@@ -22,6 +22,8 @@
 		.all-abiturients,
 		.all-abiturients td,
 		.all-abiturients th { border: 1px solid black; }
+		
+		table {border-collapse: collapse;}
 	</style>
 </head>
 <body>
@@ -58,6 +60,7 @@
 				<tr>
 					<th>First name</th>
 					<th>Second name</th>
+					<th>Photo</th>
 					<th>Faculty name</th>
 					<th>Marks</th>
 				</tr>
@@ -65,6 +68,7 @@
 					<tr>
 						<td>${current.user.firstName}</td>
 						<td>${current.user.lastName}</td>
+						<td><img src="data:image/png;base64,${current.encodedImage}" width="90" height="120" /></td>
 						<td>${current.faculty.facultyName}</td>
 						<td>${current.faculty.firstSubject}<br>${current.firstSubjectMark}<br>${current.faculty.secondSubject}<br>${current.secondSubjectMark}<br>${current.faculty.thirdSubject}<br>${current.thirdSubjectMark}</td>
 					</tr>

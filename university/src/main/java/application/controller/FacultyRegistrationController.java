@@ -1,14 +1,15 @@
 package application.controller;
 
-import javax.validation.Valid;
+import java.io.IOException;
+import java.util.Base64;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import application.domain.Faculty;
@@ -55,12 +56,14 @@ public class FacultyRegistrationController {
 	}
 	
 	@RequestMapping(value = "/addMarks", method = RequestMethod.POST)
-	public ModelAndView registration(@Valid @ModelAttribute("fr") FacultyRegistration facultyRegistration, BindingResult bindingResult) {
-		Faculty faculty = facultyService.findFacultyById(facultyRegistration.getFacultyId());
-		User user = userService.findUserByEmail(facultyRegistration.getUserEmail());
-
-		facultyRegistration.setUser(user);
-		facultyRegistration.setFaculty(faculty);
+	public ModelAndView registration(@RequestParam Integer facultyId, @RequestParam String userEmail,
+			@RequestParam Integer firstSubjectMark, @RequestParam Integer secondSubjectMark, @RequestParam Integer thirdSubjectMark,
+			@RequestParam MultipartFile image) throws IOException {
+		Faculty faculty = facultyService.findFacultyById(facultyId);
+		User user = userService.findUserByEmail(userEmail);
+		FacultyRegistration facultyRegistration = new FacultyRegistration(user, faculty, firstSubjectMark, secondSubjectMark, thirdSubjectMark);
+		facultyRegistration.setEncodedImage(Base64.getEncoder().encodeToString(image.getBytes()));
+		
 		facultyRegistrationService.save(facultyRegistration);
 
 		return new ModelAndView("redirect:/home");
