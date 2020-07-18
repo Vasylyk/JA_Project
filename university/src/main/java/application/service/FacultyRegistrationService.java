@@ -25,4 +25,8 @@ public class FacultyRegistrationService {
 	public FacultyRegistration findFucultyRegistrationById (Integer id) {
 		return facultyRegistrationRepository.findById(id).get();
 	}
+	
+	public void deleteFacultyRegistrationById (Integer id) {
+		facultyRegistrationRepository.deleteById(id);
+	}
 }

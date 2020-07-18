@@ -23,6 +23,7 @@
 			<a href="/home" class="w3-bar-item w3-button">Home</a> 
 			<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
 			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
+			<a href="/statements" class="w3-bar-item w3-button">Statements</a>
 		</div>
 		
 		<!-- Page Content -->

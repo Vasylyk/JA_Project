@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-	<title>Home</title>
+	<title>Statements</title>
 	
 	<link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -42,7 +42,7 @@
 	<!-- Page Content -->
 	<div style="margin-left: 10%">
 			<div class="w3-container w3-teal">
-				<h2 style="float: left">Home</h2>
+				<h2 style="float: left">Statements</h2>
 				<div style="text-align: end">
 					<c:if test="${pageContext.request.userPrincipal.name != null}">
         				<form id="logoutForm" method="POST" action="${contextPath}/logout">
@@ -55,23 +55,39 @@
 				</div>
 			</div>
 			
-			<h2 style = "margin-left: 2%">All entrants</h2>
+			<h2>Statements</h2>
 			
-			<table class = "all-abiturients" style = "margin-left: 2%">
+			<table class = "all-abiturients">
 				<tr>
 					<th>First name</th>
 					<th>Second name</th>
 					<th>Photo</th>
 					<th>Faculty name</th>
 					<th>Marks</th>
+					<th>Accept</th>
+					<th>Decline</th>
 				</tr>
-				<c:forEach items="${entrants}" var="current">
+				<c:forEach items="${facultyRegistrations}" var="current">
 					<tr>
 						<td>${current.user.firstName}</td>
 						<td>${current.user.lastName}</td>
 						<td><img src="data:image/png;base64,${current.encodedImage}" width="90" height="120" /></td>
 						<td>${current.faculty.facultyName}</td>
 						<td>${current.faculty.firstSubject}<br>${current.firstSubjectMark}<br>${current.faculty.secondSubject}<br>${current.secondSubjectMark}<br>${current.faculty.thirdSubject}<br>${current.thirdSubjectMark}</td>
+						<td>
+							<form:form action="${contextPath}/acceptStatement" method="POST" enctype="multipart/form-data">
+								<input type = "hidden" name="currentStatementId" value="${current.id}"/>
+								<input type="submit" value="Accept" />
+								<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+							</form:form>
+						</td>
+						<td>
+							<form:form action="${contextPath}/declineStatement" method="POST" enctype="multipart/form-data">
+								<input type = "hidden" name="currentStatementId" value="${current.id}"/>
+								<input type="submit" value="Decline" />
+								<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+							</form:form>
+						</td>
 					</tr>
 				</c:forEach>
 			</table>
