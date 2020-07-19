@@ -12,8 +12,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name = "faculty_registration")
-public class FacultyRegistration {
+@Table(name = "entrants")
+public class Entrant implements Comparable<Entrant>{
 	
 	@Id
 	@GeneratedValue (strategy = GenerationType.AUTO)
@@ -45,7 +45,7 @@ public class FacultyRegistration {
 	@Transient
 	private Integer facultyId;
 
-	public FacultyRegistration(Integer id, User user, Faculty faculty, Integer firstSubjectMark,
+	public Entrant(Integer id, User user, Faculty faculty, Integer firstSubjectMark,
 			Integer secondSubjectMark, Integer thirdSubjectMark) {
 		super();
 		this.id = id;
@@ -56,7 +56,7 @@ public class FacultyRegistration {
 		this.thirdSubjectMark = thirdSubjectMark;
 	}
 
-	public FacultyRegistration(User user, Faculty faculty, Integer firstSubjectMark, Integer secondSubjectMark,
+	public Entrant(User user, Faculty faculty, Integer firstSubjectMark, Integer secondSubjectMark,
 			Integer thirdSubjectMark) {
 		super();
 		this.user = user;
@@ -66,7 +66,7 @@ public class FacultyRegistration {
 		this.thirdSubjectMark = thirdSubjectMark;
 	}
 
-	public FacultyRegistration() {}
+	public Entrant() {}
 
 	public Integer getId() {
 		return id;
@@ -139,7 +139,9 @@ public class FacultyRegistration {
 	public void setEncodedImage(String encodedImage) {
 		this.encodedImage = encodedImage;
 	}
-
+	
+	
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -161,7 +163,7 @@ public class FacultyRegistration {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		FacultyRegistration other = (FacultyRegistration) obj;
+		Entrant other = (Entrant) obj;
 		if (faculty == null) {
 			if (other.faculty != null)
 				return false;
@@ -197,9 +199,23 @@ public class FacultyRegistration {
 
 	@Override
 	public String toString() {
-		return "FacultyRegistration [id=" + id + ", user=" + user + ", faculty=" + faculty + ", firstSubjectMark="
+		return "Entarnt [id=" + id + ", user=" + user + ", faculty=" + faculty + ", firstSubjectMark="
 				+ firstSubjectMark + ", secondSubjectMark=" + secondSubjectMark + ", thirdSubjectMark="
 				+ thirdSubjectMark + "]";
+	}
+
+	@Override
+	public int compareTo(Entrant o) {
+		if ((o.firstSubjectMark+o.secondSubjectMark+o.thirdSubjectMark
+				-this.firstSubjectMark-this.secondSubjectMark-this.thirdSubjectMark>0)) {
+			return 1;
+		} else if((o.firstSubjectMark+o.secondSubjectMark+o.thirdSubjectMark
+				-this.firstSubjectMark-this.secondSubjectMark-this.thirdSubjectMark<0)) {
+			return -1;
+		} else {
+			return 0;
+		}
+		
 	}
 	
 	

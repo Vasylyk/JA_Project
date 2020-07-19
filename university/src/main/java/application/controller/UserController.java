@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import application.domain.User;
+import application.service.EntrantService;
 import application.service.FacultyRegistrationService;
 import application.service.UserService;
 
@@ -21,6 +22,9 @@ public class UserController {
 	
 	@Autowired
 	private FacultyRegistrationService facultyRegistrationService;
+	
+	@Autowired
+	private EntrantService entrantService;
 	
 	 @RequestMapping(value = "/registration", method = RequestMethod.GET)
 	 public String registration(Model model) {
@@ -52,7 +56,7 @@ public class UserController {
 	 @RequestMapping(value ="/home", method = RequestMethod.GET)
 	 public ModelAndView home () {
 	     ModelAndView modelAndView = new ModelAndView("home");
-	     modelAndView.addObject("facultyRegistrations", facultyRegistrationService.findAllFacultyRegistrations());
+	     modelAndView.addObject("entrants", entrantService.findAllEntrants());
 	     return modelAndView;
 	 }
 	 
@@ -61,5 +65,11 @@ public class UserController {
 	     return "home";
 	 }
 	 
+	 @RequestMapping(value ="/statements", method = RequestMethod.GET)
+	 public ModelAndView statements () {
+	     ModelAndView modelAndView = new ModelAndView("statements");
+	     modelAndView.addObject("facultyRegistrations", facultyRegistrationService.findAllFacultyRegistrations());
+	     return modelAndView;
+	 }
 	 
 }

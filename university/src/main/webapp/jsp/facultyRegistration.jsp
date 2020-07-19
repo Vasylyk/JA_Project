@@ -23,6 +23,8 @@
 			<a href="/home" class="w3-bar-item w3-button">Home</a> 
 			<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
 			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
+			<a href="/statements" class="w3-bar-item w3-button">Statements</a>
+			<a href="/ratingFaculties" class="w3-bar-item w3-button">Rating</a>
 		</div>
 		
 		<!-- Page Content -->
@@ -41,30 +43,35 @@
 				</div>
 			</div>
 			
-			<form:form method="POST" action="${contextPath}/addMarks" modelAttribute="fr">
+			<form:form method="POST" action="${contextPath}/addMarks" enctype="multipart/form-data">
 				<table>
 					<tr>
-						<th>Enter your marks: </th>
+						<th>Enter your marks and add your photo: </th>
 					</tr>
 
 						<tr>
-							<td><form:label path="firstSubjectMark">${fr.faculty.firstSubject}</form:label></td>
-							<td><form:input path="firstSubjectMark" /></td>
+							<td>${fr.faculty.firstSubject}</td>
+							<td><input type = "number" name="firstSubjectMark" /></td>
 						</tr>
 						
 						<tr>
-							<td><form:label path="secondSubjectMark">${fr.faculty.secondSubject}</form:label></td>
-							<td><form:input path="secondSubjectMark" /></td>
+							<td>${fr.faculty.secondSubject}</td>
+							<td><input type = "number" name="secondSubjectMark" /></td>
 						</tr>
 						
 						<tr>
-							<td><form:label path="thirdSubjectMark">${fr.faculty.thirdSubject}</form:label></td>
-							<td><form:input path="thirdSubjectMark" /></td>
+							<td>${fr.faculty.thirdSubject}</td>
+							<td><input type = "number" name="thirdSubjectMark" /></td>
+						</tr>
+						
+						<tr>
+							<td>Add photo:</td>
+							<td><input type="file" name="image"/></td>
 						</tr>
 						
 					<tr>
-						<td><form:input type="hidden" path="facultyId" value="${fr.faculty.id}" /></td>
-						<td><form:input type="hidden" path="userEmail" value="${fr.user.email}" /></td>
+						<td><input type="hidden" name="facultyId" value="${fr.faculty.id}" /></td>
+						<td><input type="hidden" name="userEmail" value="${fr.user.email}" /></td>
 					</tr>
 
 					<tr>

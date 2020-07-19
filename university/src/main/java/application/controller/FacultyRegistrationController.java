@@ -1,19 +1,22 @@
 package application.controller;
 
-import javax.validation.Valid;
+import java.io.IOException;
+import java.util.Base64;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import application.domain.Entrant;
 import application.domain.Faculty;
 import application.domain.FacultyRegistration;
 import application.domain.User;
+import application.service.EntrantService;
 import application.service.FacultyRegistrationService;
 import application.service.FacultyService;
 import application.service.UserService;
@@ -29,6 +32,9 @@ public class FacultyRegistrationController {
 	
 	@Autowired
 	private FacultyRegistrationService facultyRegistrationService;
+	
+	@Autowired
+	private EntrantService entrantService;
 	
 	@RequestMapping(value = "/faculties", method = RequestMethod.GET)
 	public ModelAndView faculties() {
@@ -55,14 +61,34 @@ public class FacultyRegistrationController {
 	}
 	
 	@RequestMapping(value = "/addMarks", method = RequestMethod.POST)
-	public ModelAndView registration(@Valid @ModelAttribute("fr") FacultyRegistration facultyRegistration, BindingResult bindingResult) {
-		Faculty faculty = facultyService.findFacultyById(facultyRegistration.getFacultyId());
-		User user = userService.findUserByEmail(facultyRegistration.getUserEmail());
-
-		facultyRegistration.setUser(user);
-		facultyRegistration.setFaculty(faculty);
+	public ModelAndView registration(@RequestParam Integer facultyId, @RequestParam String userEmail,
+			@RequestParam Integer firstSubjectMark, @RequestParam Integer secondSubjectMark, @RequestParam Integer thirdSubjectMark,
+			@RequestParam MultipartFile image) throws IOException {
+		Faculty faculty = facultyService.findFacultyById(facultyId);
+		User user = userService.findUserByEmail(userEmail);
+		FacultyRegistration facultyRegistration = new FacultyRegistration(user, faculty, firstSubjectMark, secondSubjectMark, thirdSubjectMark);
+		facultyRegistration.setEncodedImage(Base64.getEncoder().encodeToString(image.getBytes()));
+		
 		facultyRegistrationService.save(facultyRegistration);
 
 		return new ModelAndView("redirect:/home");
+	}
+	
+	@RequestMapping(value = "/acceptStatement", method = RequestMethod.POST)
+	public ModelAndView acceptStatement(@RequestParam String currentStatementId) {	
+		FacultyRegistration facultyRegistration = facultyRegistrationService.findFucultyRegistrationById(Integer.parseInt(currentStatementId));
+		Entrant entrant = new Entrant(facultyRegistration.getUser(), facultyRegistration.getFaculty(), facultyRegistration.getFirstSubjectMark(),
+				facultyRegistration.getSecondSubjectMark(), facultyRegistration.getThirdSubjectMark());
+		entrant.setEncodedImage(facultyRegistration.getEncodedImage());
+		
+		entrantService.save(entrant);
+		facultyRegistrationService.deleteFacultyRegistrationById(Integer.parseInt(currentStatementId));
+		return new ModelAndView("redirect:/statements");
+	}
+	
+	@RequestMapping (value = "/declineStatement", method = RequestMethod.POST)
+	public ModelAndView declineStatement(@RequestParam String currentStatementId) {
+		facultyRegistrationService.deleteFacultyRegistrationById(Integer.parseInt(currentStatementId));
+		return new ModelAndView("redirect:/statements");
 	}
 }
