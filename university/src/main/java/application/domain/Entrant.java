@@ -13,7 +13,7 @@ import javax.persistence.Transient;
 
 @Entity
 @Table(name = "entrants")
-public class Entrant {
+public class Entrant implements Comparable<Entrant>{
 	
 	@Id
 	@GeneratedValue (strategy = GenerationType.AUTO)
@@ -202,6 +202,20 @@ public class Entrant {
 		return "Entarnt [id=" + id + ", user=" + user + ", faculty=" + faculty + ", firstSubjectMark="
 				+ firstSubjectMark + ", secondSubjectMark=" + secondSubjectMark + ", thirdSubjectMark="
 				+ thirdSubjectMark + "]";
+	}
+
+	@Override
+	public int compareTo(Entrant o) {
+		if ((o.firstSubjectMark+o.secondSubjectMark+o.thirdSubjectMark
+				-this.firstSubjectMark-this.secondSubjectMark-this.thirdSubjectMark>0)) {
+			return 1;
+		} else if((o.firstSubjectMark+o.secondSubjectMark+o.thirdSubjectMark
+				-this.firstSubjectMark-this.secondSubjectMark-this.thirdSubjectMark<0)) {
+			return -1;
+		} else {
+			return 0;
+		}
+		
 	}
 	
 	

@@ -13,7 +13,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Faculty Registration</title>
+<title>Rating</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
@@ -32,7 +32,7 @@
 		<!-- Page Content -->
 		<div style="margin-left: 10%">
 			<div class="w3-container w3-teal">
-				<h2 style="float: left">Registration</h2>
+				<h2 style="float: left">Rating</h2>
 				<div style="text-align: end">
 					<c:if test="${pageContext.request.userPrincipal.name != null}">
         				<form id="logoutForm" method="POST" action="${contextPath}/logout">
@@ -51,19 +51,13 @@
 						<div class="w3-container w3-center" style="padding: 0">
 							<h2>${currentFaculty.facultyName}</h2>
 							<p>Number of student: ${currentFaculty.numberOfStudents}</p>
-							<p>
-								List of subjects:<br>
-								${currentFaculty.firstSubject}<br>
-								${currentFaculty.secondSubject}<br>
-								${currentFaculty.thirdSubject}<br>
-							</p>
-							<a href="faculty-registration?currentFacultyId=${currentFaculty.id}&currentUserEmail=${pageContext.request.userPrincipal.name}">Choose this faculty</a>
+							<a href="rating?currentFacultyId=${currentFaculty.id}">Show rating</a>
 						</div>
 					</div>
 				</div>
 			</c:forEach>
+			
 		</div>
 	</div>
-
 </body>
 </html>
