@@ -3,7 +3,6 @@ package application.controller;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,8 +13,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import application.domain.Entrant;
 import application.domain.Faculty;
-import application.domain.FacultyRegistration;
-import application.domain.User;
 import application.service.EntrantService;
 import application.service.FacultyService;
 
