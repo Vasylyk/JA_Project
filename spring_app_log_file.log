@@ -1,0 +1,765 @@
+2020-07-207 18:36:04 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 6216 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 18:36:04 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 18:36:04 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 18:36:05 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 18:36:06 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 179ms. Found 4 JPA repository interfaces.
+ 2020-07-207 18:36:09 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 18:36:09 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 18:36:09 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 18:36:10 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 18:36:10 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 18:36:10 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 18:36:11 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 18:36:11 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 18:36:11 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 18:36:13 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 18:36:13 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 18:36:18 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 18:36:18 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 18:36:18 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 18:36:20 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24a3d414, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e477944, org.springframework.security.web.header.HeaderWriterFilter@a357c3e, org.springframework.security.web.csrf.CsrfFilter@23bd047f, org.springframework.security.web.authentication.logout.LogoutFilter@5a8d676e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31d4b3e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c92a549, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63262071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37e55819, org.springframework.security.web.session.SessionManagementFilter@3eb9c575, org.springframework.security.web.access.ExceptionTranslationFilter@30af23fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70f85235]
+ 2020-07-207 18:36:20 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 18:36:21 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 18:36:21 [main]  INFO application.Application - Started Application in 18.591 seconds (JVM running for 19.486)
+ 2020-07-207 18:50:05 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10012 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 18:50:05 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 18:50:05 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 18:50:06 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 18:50:06 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170ms. Found 4 JPA repository interfaces.
+ 2020-07-207 18:50:08 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 18:50:08 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 18:50:08 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 18:50:09 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 18:50:09 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 18:50:09 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 18:50:10 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 18:50:10 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 18:50:10 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 18:50:11 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 18:50:11 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 18:50:13 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 18:50:13 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 18:50:13 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 18:50:15 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@660296d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@a95cb11, org.springframework.security.web.header.HeaderWriterFilter@7254838, org.springframework.security.web.csrf.CsrfFilter@6eaa6b0c, org.springframework.security.web.authentication.logout.LogoutFilter@7c226095, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@284d4885, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2513155a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6029f2a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d3163a6, org.springframework.security.web.session.SessionManagementFilter@2e204155, org.springframework.security.web.access.ExceptionTranslationFilter@2987d0fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67a0ff25]
+ 2020-07-207 18:50:16 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 18:50:16 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 18:50:16 [main]  INFO application.Application - Started Application in 12.711 seconds (JVM running for 13.642)
+ 2020-07-207 18:50:27 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 18:50:35 [http-nio-8080-exec-2]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 18:51:01 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all faculties
+ 2020-07-207 18:51:10 [http-nio-8080-exec-2]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 18:51:10 [http-nio-8080-exec-2]  INFO application.service.EntrantService - Find faculty by id: 16
+ 2020-07-207 19:02:21 [http-nio-8080-exec-8]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:04:00 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 7568 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:04:00 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:04:00 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:04:01 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:04:02 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 179ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:04:03 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:04:03 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:04:03 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:04:04 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:04:04 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:04:05 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:04:05 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:04:05 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:04:06 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:04:07 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:04:07 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:04:09 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:04:09 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:04:09 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:04:12 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31d4b3e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c226095, org.springframework.security.web.header.HeaderWriterFilter@2a4e939a, org.springframework.security.web.csrf.CsrfFilter@27dc335a, org.springframework.security.web.authentication.logout.LogoutFilter@41167ded, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bfa3893, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30af23fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@323e026d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@278de2b2, org.springframework.security.web.session.SessionManagementFilter@4f402027, org.springframework.security.web.access.ExceptionTranslationFilter@29fcfc54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b5798c2]
+ 2020-07-207 19:04:12 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:04:13 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:04:13 [main]  INFO application.Application - Started Application in 13.819 seconds (JVM running for 14.923)
+ 2020-07-207 19:04:40 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:04:43 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:04:51 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:05:14 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 1236 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:05:14 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:05:14 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:05:16 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:05:16 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 332ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:05:18 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:05:18 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:05:18 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:05:19 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:05:19 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:05:19 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:05:19 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:05:19 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:05:20 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:05:20 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:05:20 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:05:23 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:05:23 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:05:23 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:05:25 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f3f3d00, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f402027, org.springframework.security.web.header.HeaderWriterFilter@29fcfc54, org.springframework.security.web.csrf.CsrfFilter@39374689, org.springframework.security.web.authentication.logout.LogoutFilter@2d4f67e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ca22e19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c226095, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cf047cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a6dc5ea, org.springframework.security.web.session.SessionManagementFilter@2a4e939a, org.springframework.security.web.access.ExceptionTranslationFilter@7fac18dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fdb7394]
+ 2020-07-207 19:05:25 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:05:26 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:05:26 [main]  INFO application.Application - Started Application in 12.459 seconds (JVM running for 13.446)
+ 2020-07-207 19:05:32 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:05:36 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:05:43 [http-nio-8080-exec-1]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:05:48 [http-nio-8080-exec-6]  INFO application.service.EntrantService - Find all facultyRegistrations
+ 2020-07-207 19:05:50 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:05:53 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:05:57 [http-nio-8080-exec-1]  INFO application.service.EntrantService - Find all faculties
+ 2020-07-207 19:05:59 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find user by email: test
+ 2020-07-207 19:05:59 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find faculty by id: 16
+ 2020-07-207 19:06:13 [http-nio-8080-exec-6]  INFO application.service.EntrantService - Find faculty by id: 16
+ 2020-07-207 19:06:13 [http-nio-8080-exec-6]  INFO application.service.EntrantService - Find user by email: test
+ 2020-07-207 19:06:13 [http-nio-8080-exec-6]  INFO application.service.EntrantService - Create new facultyRegistration: FacultyRegistration [id=null, user=User [email=test, password=$2a$10$DAWZWeyBn4/IHKxVNyVDQOL5wyMLHDkUfJ25ssK4YVPFZ5SbK5pem, firstName=test, lastName=test, userRole=ADMIN], faculty=Faculty [numberOfStudents=50, facultyName=DIPLOMACY, firstSubject=NATIVE_LANGUAGE, secondSubject=FOREIGN_LANGUAGE, thirdSubject=HISTORY], firstSubjectMark=100, secondSubjectMark=150, thirdSubjectMark=199]
+ 2020-07-207 19:06:13 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:06:15 [http-nio-8080-exec-5]  INFO application.service.EntrantService - Find all facultyRegistrations
+ 2020-07-207 19:06:18 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:06:30 [http-nio-8080-exec-1]  INFO application.service.EntrantService - Find all faculties
+ 2020-07-207 19:06:31 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:06:31 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find faculty by id: 16
+ 2020-07-207 19:06:37 [http-nio-8080-exec-6]  INFO application.service.EntrantService - Find all faculties
+ 2020-07-207 19:06:39 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:06:39 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Find faculty by id: 15
+ 2020-07-207 19:07:03 [http-nio-8080-exec-5]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:08:21 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 4424 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:08:21 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:08:21 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:08:23 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:08:23 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:08:25 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:08:25 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:08:25 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:08:26 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:08:26 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:08:26 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:08:26 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:08:26 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:08:26 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:08:27 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:08:27 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:08:30 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:08:30 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:08:30 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:08:32 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bdcfcf, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c92a549, org.springframework.security.web.header.HeaderWriterFilter@3eb9c575, org.springframework.security.web.csrf.CsrfFilter@66d2885c, org.springframework.security.web.authentication.logout.LogoutFilter@7ba06506, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fc1c7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1716c037, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1282f784, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6248cfab, org.springframework.security.web.session.SessionManagementFilter@1e477944, org.springframework.security.web.access.ExceptionTranslationFilter@a357c3e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a84338a]
+ 2020-07-207 19:08:32 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:08:33 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:08:33 [main]  INFO application.Application - Started Application in 12.309 seconds (JVM running for 13.132)
+ 2020-07-207 19:20:23 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:20:29 [http-nio-8080-exec-8]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:39:57 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 3568 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:39:57 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:39:57 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:39:58 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:39:59 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 232ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:40:01 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:40:01 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:40:01 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:40:01 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:40:01 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:40:02 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:40:02 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:40:02 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:40:02 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:40:03 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:40:03 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:40:06 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:40:06 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:40:06 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:40:08 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@299fc582, org.springframework.security.web.context.SecurityContextPersistenceFilter@45707f76, org.springframework.security.web.header.HeaderWriterFilter@1f408ab6, org.springframework.security.web.csrf.CsrfFilter@33187485, org.springframework.security.web.authentication.logout.LogoutFilter@8ac512e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ac756b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@682266d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cc7e3ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@305aaedf, org.springframework.security.web.session.SessionManagementFilter@53f495f0, org.springframework.security.web.access.ExceptionTranslationFilter@74fc3fc7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ad1a276]
+ 2020-07-207 19:40:08 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:40:08 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:40:08 [main]  INFO application.Application - Started Application in 12.667 seconds (JVM running for 13.488)
+ 2020-07-207 19:40:14 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:40:36 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:41:37 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 12948 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:41:37 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:41:37 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:41:39 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:41:39 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 233ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:41:41 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:41:41 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:41:41 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:41:42 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:41:42 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:41:42 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:41:42 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:41:43 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:41:43 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:41:44 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:41:44 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:41:47 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:41:47 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:41:47 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:41:49 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31d4b3e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c226095, org.springframework.security.web.header.HeaderWriterFilter@2a4e939a, org.springframework.security.web.csrf.CsrfFilter@27dc335a, org.springframework.security.web.authentication.logout.LogoutFilter@41167ded, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bfa3893, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30af23fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@323e026d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@278de2b2, org.springframework.security.web.session.SessionManagementFilter@4f402027, org.springframework.security.web.access.ExceptionTranslationFilter@29fcfc54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b5798c2]
+ 2020-07-207 19:41:49 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:41:49 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:41:49 [main]  INFO application.Application - Started Application in 13.254 seconds (JVM running for 14.197)
+ 2020-07-207 19:41:58 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:45:49 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 7576 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:45:49 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:45:49 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:45:51 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:45:52 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 390ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:45:54 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:45:54 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:45:54 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:45:54 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:45:54 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:45:55 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:45:55 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:45:55 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:45:56 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:45:56 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:45:56 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:45:59 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:45:59 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:45:59 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:46:01 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6248cfab, org.springframework.security.web.context.SecurityContextPersistenceFilter@323e026d, org.springframework.security.web.header.HeaderWriterFilter@3f322610, org.springframework.security.web.csrf.CsrfFilter@2bfc8558, org.springframework.security.web.authentication.logout.LogoutFilter@63dc3420, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@75cacb3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79b63325, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41167ded, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5871a482, org.springframework.security.web.session.SessionManagementFilter@6cf047cf, org.springframework.security.web.access.ExceptionTranslationFilter@7740b0ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4070ace9]
+ 2020-07-207 19:46:01 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:46:01 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:46:01 [main]  INFO application.Application - Started Application in 13.024 seconds (JVM running for 13.878)
+ 2020-07-207 19:46:08 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:46:16 [http-nio-8080-exec-2]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 19:47:25 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10964 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:47:25 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:47:25 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:47:27 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:47:27 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:47:28 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:47:28 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:47:28 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:47:29 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:47:29 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:47:30 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:47:30 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:47:30 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:47:30 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:47:31 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:47:31 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:47:33 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:47:33 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:47:33 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:47:35 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75cacb3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@65fc8edc, org.springframework.security.web.header.HeaderWriterFilter@22aee519, org.springframework.security.web.csrf.CsrfFilter@2513155a, org.springframework.security.web.authentication.logout.LogoutFilter@33187485, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a84338a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7740b0ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@708769b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61957d9c, org.springframework.security.web.session.SessionManagementFilter@7ea07516, org.springframework.security.web.access.ExceptionTranslationFilter@110620d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3348c987]
+ 2020-07-207 19:47:35 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:47:36 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:47:36 [main]  INFO application.Application - Started Application in 12.126 seconds (JVM running for 12.932)
+ 2020-07-207 19:47:44 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:51:42 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 6940 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:51:42 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:51:42 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:51:43 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:51:43 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:51:46 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:51:46 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:51:46 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:51:46 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:51:46 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:51:47 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:51:47 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:51:47 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:51:48 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:51:49 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:51:49 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:51:51 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:51:51 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:51:51 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:51:53 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24a3d414, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cf047cf, org.springframework.security.web.header.HeaderWriterFilter@7740b0ab, org.springframework.security.web.csrf.CsrfFilter@3562e7c7, org.springframework.security.web.authentication.logout.LogoutFilter@74764622, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31d4b3e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@323e026d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d4f67e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37e55819, org.springframework.security.web.session.SessionManagementFilter@3f322610, org.springframework.security.web.access.ExceptionTranslationFilter@65fc8edc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70f85235]
+ 2020-07-207 19:51:53 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:51:54 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:51:54 [main]  INFO application.Application - Started Application in 13.018 seconds (JVM running for 13.925)
+ 2020-07-207 19:51:58 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:55:30 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 3816 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:55:30 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:55:30 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:55:31 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:55:32 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:55:33 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:55:33 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:55:33 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:55:35 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:55:35 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:55:35 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:55:35 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:55:35 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:55:36 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:55:36 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:55:36 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:55:38 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:55:38 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:55:39 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:55:41 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@213835b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e477944, org.springframework.security.web.header.HeaderWriterFilter@a357c3e, org.springframework.security.web.csrf.CsrfFilter@23bd047f, org.springframework.security.web.authentication.logout.LogoutFilter@5a8d676e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1a6dc5ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c92a549, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63262071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24a3d414, org.springframework.security.web.session.SessionManagementFilter@3eb9c575, org.springframework.security.web.access.ExceptionTranslationFilter@30af23fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bfa3893]
+ 2020-07-207 19:55:41 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:55:42 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:55:42 [main]  INFO application.Application - Started Application in 12.636 seconds (JVM running for 13.773)
+ 2020-07-207 19:56:05 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 8256 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:56:05 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:56:05 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:56:06 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:56:07 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 186ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:56:08 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:56:08 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:56:08 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:56:09 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:56:09 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:56:10 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:56:10 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:56:10 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:56:10 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:56:11 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:56:11 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:56:13 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:56:13 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:56:13 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:56:16 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ad1a276, org.springframework.security.web.context.SecurityContextPersistenceFilter@74764622, org.springframework.security.web.header.HeaderWriterFilter@5d2e6f62, org.springframework.security.web.csrf.CsrfFilter@1e477944, org.springframework.security.web.authentication.logout.LogoutFilter@6c5ae8fd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@531a716c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63dc3420, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74fc3fc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a833595, org.springframework.security.web.session.SessionManagementFilter@733fae8, org.springframework.security.web.access.ExceptionTranslationFilter@33187485, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@296676c4]
+ 2020-07-207 19:56:16 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:56:16 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:56:16 [main]  INFO application.Application - Started Application in 12.478 seconds (JVM running for 13.319)
+ 2020-07-207 19:56:23 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 19:59:35 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 12452 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 19:59:35 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 19:59:35 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 19:59:37 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 19:59:38 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 191ms. Found 4 JPA repository interfaces.
+ 2020-07-207 19:59:39 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 19:59:39 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 19:59:39 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 19:59:40 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 19:59:40 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 19:59:40 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 19:59:41 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 19:59:41 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 19:59:41 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 19:59:42 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 19:59:42 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 19:59:44 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 19:59:44 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 19:59:44 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 19:59:46 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a69f9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@42ff9a77, org.springframework.security.web.header.HeaderWriterFilter@352e5a82, org.springframework.security.web.csrf.CsrfFilter@7c421952, org.springframework.security.web.authentication.logout.LogoutFilter@50bf795f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@55e91e61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13234ac9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47fa3671, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a8dcfbb, org.springframework.security.web.session.SessionManagementFilter@2e929182, org.springframework.security.web.access.ExceptionTranslationFilter@79308a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8ac512e]
+ 2020-07-207 19:59:47 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 19:59:47 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 19:59:47 [main]  INFO application.Application - Started Application in 12.683 seconds (JVM running for 13.651)
+ 2020-07-207 19:59:52 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:01:25 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10348 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:01:25 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:01:25 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:01:27 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:01:27 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 278ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:01:29 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:01:29 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:01:29 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:01:29 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:01:29 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:01:30 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:01:30 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:01:30 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:01:30 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:01:31 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:01:31 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:01:33 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:01:33 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:01:34 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:01:35 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a833595, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ba06506, org.springframework.security.web.header.HeaderWriterFilter@77ff14ce, org.springframework.security.web.csrf.CsrfFilter@6cf047cf, org.springframework.security.web.authentication.logout.LogoutFilter@17354708, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@377dbc50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@525b8922, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@491893f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31006a75, org.springframework.security.web.session.SessionManagementFilter@5a8d676e, org.springframework.security.web.access.ExceptionTranslationFilter@41938e1e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@df7d1d4]
+ 2020-07-207 20:01:36 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:01:36 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:01:36 [main]  INFO application.Application - Started Application in 11.923 seconds (JVM running for 12.747)
+ 2020-07-207 20:01:47 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:05:07 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 12336 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:05:07 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:05:07 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:05:09 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:05:09 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 230ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:05:11 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:05:11 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:05:11 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:05:12 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:05:12 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:05:12 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:05:12 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:05:12 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:05:13 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:05:14 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:05:14 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:05:16 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:05:16 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:05:16 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:05:18 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7540160e, org.springframework.security.web.context.SecurityContextPersistenceFilter@60f662bd, org.springframework.security.web.header.HeaderWriterFilter@915d7c4, org.springframework.security.web.csrf.CsrfFilter@7de6549d, org.springframework.security.web.authentication.logout.LogoutFilter@7740b0ab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31b741e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23bd047f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29fcfc54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71039ce1, org.springframework.security.web.session.SessionManagementFilter@6313b441, org.springframework.security.web.access.ExceptionTranslationFilter@27dc335a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@432c0f1]
+ 2020-07-207 20:05:18 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:05:19 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:05:19 [main]  INFO application.Application - Started Application in 12.473 seconds (JVM running for 13.498)
+ 2020-07-207 20:05:23 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:07:32 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:09:45 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10492 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:09:45 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:09:45 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:09:46 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:09:46 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 178ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:09:48 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:09:48 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:09:48 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:09:49 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:09:49 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:09:49 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:09:50 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:09:50 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:09:50 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:09:51 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:09:51 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:09:53 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:09:53 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:09:53 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:09:55 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70884875, org.springframework.security.web.context.SecurityContextPersistenceFilter@33187485, org.springframework.security.web.header.HeaderWriterFilter@1282f784, org.springframework.security.web.csrf.CsrfFilter@30af23fd, org.springframework.security.web.authentication.logout.LogoutFilter@5efe5b25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58f7215c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d2e6f62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6caa4dc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7019d619, org.springframework.security.web.session.SessionManagementFilter@13e1e816, org.springframework.security.web.access.ExceptionTranslationFilter@63262071, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24a3d414]
+ 2020-07-207 20:09:56 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:09:56 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:09:56 [main]  INFO application.Application - Started Application in 12.704 seconds (JVM running for 13.859)
+ 2020-07-207 20:10:06 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:13:46 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 8720 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:13:46 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:13:46 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:13:48 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:13:48 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:13:49 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:13:50 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:13:50 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:13:50 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:13:51 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:13:51 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:13:51 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:13:51 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:13:52 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:13:52 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:13:52 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:13:55 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:13:55 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:13:55 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:13:57 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@296676c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@79b63325, org.springframework.security.web.header.HeaderWriterFilter@6cf047cf, org.springframework.security.web.csrf.CsrfFilter@42576db9, org.springframework.security.web.authentication.logout.LogoutFilter@145a821d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29c59b6e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32e830a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36238b12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@df7d1d4, org.springframework.security.web.session.SessionManagementFilter@323e026d, org.springframework.security.web.access.ExceptionTranslationFilter@3f322610, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@740c4868]
+ 2020-07-207 20:13:57 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:13:58 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:13:58 [main]  INFO application.Application - Started Application in 12.973 seconds (JVM running for 14.443)
+ 2020-07-207 20:14:15 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:16:30 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 7884 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:16:30 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:16:30 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:16:32 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:16:32 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:16:33 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:16:33 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:16:33 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:16:34 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:16:34 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:16:35 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:16:35 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:16:35 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:16:35 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:16:36 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:16:36 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:16:38 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:16:38 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:16:39 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:16:40 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55e91e61, org.springframework.security.web.context.SecurityContextPersistenceFilter@756c67cd, org.springframework.security.web.header.HeaderWriterFilter@3a2bb026, org.springframework.security.web.csrf.CsrfFilter@68a426c3, org.springframework.security.web.authentication.logout.LogoutFilter@5df2023c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6caeba36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fd37440, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13234ac9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@166e5a6d, org.springframework.security.web.session.SessionManagementFilter@7de6549d, org.springframework.security.web.access.ExceptionTranslationFilter@4afcae7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47be41c6]
+ 2020-07-207 20:16:41 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:16:42 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:16:42 [main]  INFO application.Application - Started Application in 12.599 seconds (JVM running for 13.558)
+ 2020-07-207 20:16:46 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:21:59 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 12604 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:21:59 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:21:59 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:22:01 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:22:01 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 243ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:22:03 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:22:03 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:22:03 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:22:04 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:22:04 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:22:05 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:22:05 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:22:05 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:22:05 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:22:06 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:22:06 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:22:09 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:22:09 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:22:09 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:22:11 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7019d619, org.springframework.security.web.context.SecurityContextPersistenceFilter@41938e1e, org.springframework.security.web.header.HeaderWriterFilter@41167ded, org.springframework.security.web.csrf.CsrfFilter@65fc8edc, org.springframework.security.web.authentication.logout.LogoutFilter@45707f76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@55638165, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77ff14ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ed51944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a5c6b76, org.springframework.security.web.session.SessionManagementFilter@36238b12, org.springframework.security.web.access.ExceptionTranslationFilter@2d4f67e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37e55819]
+ 2020-07-207 20:22:11 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:22:11 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:22:11 [main]  INFO application.Application - Started Application in 12.902 seconds (JVM running for 13.761)
+ 2020-07-207 20:22:17 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:24:38 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 5176 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:24:38 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:24:38 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:24:40 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:24:40 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:24:42 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:24:42 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:24:42 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:24:43 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:24:43 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:24:44 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:24:44 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:24:44 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:24:44 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:24:45 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:24:45 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:24:47 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:24:47 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:24:47 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:24:50 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a84338a, org.springframework.security.web.context.SecurityContextPersistenceFilter@29fcfc54, org.springframework.security.web.header.HeaderWriterFilter@42576db9, org.springframework.security.web.csrf.CsrfFilter@42ff9a77, org.springframework.security.web.authentication.logout.LogoutFilter@135e49b2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71039ce1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a4e939a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7740b0ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4070ace9, org.springframework.security.web.session.SessionManagementFilter@7fac18dc, org.springframework.security.web.access.ExceptionTranslationFilter@2bfc8558, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28f05b0c]
+ 2020-07-207 20:24:50 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:24:51 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:24:51 [main]  INFO application.Application - Started Application in 13.724 seconds (JVM running for 14.78)
+ 2020-07-207 20:25:07 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:28:26 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 8908 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:28:26 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:28:26 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:28:29 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:28:29 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:28:31 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:28:31 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:28:31 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:28:31 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:28:31 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:28:32 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:28:32 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:28:32 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:28:32 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:28:33 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:28:33 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:28:35 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:28:35 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:28:36 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:28:37 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@483b7dc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7740b0ab, org.springframework.security.web.header.HeaderWriterFilter@7ea07516, org.springframework.security.web.csrf.CsrfFilter@47fa3671, org.springframework.security.web.authentication.logout.LogoutFilter@5d2e6f62, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@740c4868, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f322610, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@135e49b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b8bdcc6, org.springframework.security.web.session.SessionManagementFilter@65fc8edc, org.springframework.security.web.access.ExceptionTranslationFilter@22aee519, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ca22e19]
+ 2020-07-207 20:28:37 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:28:38 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:28:38 [main]  INFO application.Application - Started Application in 12.554 seconds (JVM running for 13.587)
+ 2020-07-207 20:28:46 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:28:54 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Create new user: User [email=, password=, firstName=, lastName=, userRole=null]
+ 2020-07-207 20:30:14 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 6756 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:30:14 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:30:14 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:30:16 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:30:16 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 188ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:30:18 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:30:18 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:30:18 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:30:18 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:30:18 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:30:19 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:30:19 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:30:20 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:30:20 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:30:21 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:30:21 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:30:23 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:30:23 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:30:23 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:30:25 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5871a482, org.springframework.security.web.context.SecurityContextPersistenceFilter@79b63325, org.springframework.security.web.header.HeaderWriterFilter@6cf047cf, org.springframework.security.web.csrf.CsrfFilter@42576db9, org.springframework.security.web.authentication.logout.LogoutFilter@145a821d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61957d9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32e830a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36238b12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45c90a05, org.springframework.security.web.session.SessionManagementFilter@323e026d, org.springframework.security.web.access.ExceptionTranslationFilter@3f322610, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@722b2728]
+ 2020-07-207 20:30:26 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:30:27 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:30:27 [main]  INFO application.Application - Started Application in 13.953 seconds (JVM running for 14.827)
+ 2020-07-207 20:31:03 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:31:29 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10928 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:31:29 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:31:29 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:31:31 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:31:31 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:31:33 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:31:33 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:31:33 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:31:33 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:31:33 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:31:34 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:31:34 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:31:35 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:31:35 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:31:36 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:31:36 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:31:38 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:31:38 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:31:38 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:31:39 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@573a078, org.springframework.security.web.context.SecurityContextPersistenceFilter@39374689, org.springframework.security.web.header.HeaderWriterFilter@42ff9a77, org.springframework.security.web.csrf.CsrfFilter@4b343b6d, org.springframework.security.web.authentication.logout.LogoutFilter@110620d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@432c0f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27dc335a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3562e7c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28f05b0c, org.springframework.security.web.session.SessionManagementFilter@13234ac9, org.springframework.security.web.access.ExceptionTranslationFilter@2e929182, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4dd1d2bb]
+ 2020-07-207 20:31:40 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:31:41 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:31:41 [main]  INFO application.Application - Started Application in 12.161 seconds (JVM running for 13.35)
+ 2020-07-207 20:31:48 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:33:52 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 10496 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:33:52 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:33:52 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:33:55 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:33:55 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:33:56 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:33:56 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:33:56 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:33:57 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:33:57 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:33:57 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:33:57 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:33:58 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:33:58 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:33:59 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:33:59 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:34:01 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:34:01 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:34:01 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:34:03 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5871a482, org.springframework.security.web.context.SecurityContextPersistenceFilter@79b63325, org.springframework.security.web.header.HeaderWriterFilter@6cf047cf, org.springframework.security.web.csrf.CsrfFilter@42576db9, org.springframework.security.web.authentication.logout.LogoutFilter@145a821d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61957d9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32e830a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36238b12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45c90a05, org.springframework.security.web.session.SessionManagementFilter@323e026d, org.springframework.security.web.access.ExceptionTranslationFilter@3f322610, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@722b2728]
+ 2020-07-207 20:34:03 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:34:03 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:34:03 [main]  INFO application.Application - Started Application in 12.043 seconds (JVM running for 12.869)
+ 2020-07-207 20:34:10 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:36:37 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 8768 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:36:37 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:36:37 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:36:39 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:36:39 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 381ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:36:41 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:36:41 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:36:41 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:36:42 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:36:42 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:36:42 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:36:42 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:36:43 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:36:43 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:36:44 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:36:44 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:36:46 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:36:46 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:36:46 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:36:48 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4070ace9, org.springframework.security.web.context.SecurityContextPersistenceFilter@353b0719, org.springframework.security.web.header.HeaderWriterFilter@30358dc7, org.springframework.security.web.csrf.CsrfFilter@2987d0fa, org.springframework.security.web.authentication.logout.LogoutFilter@5bb97fe7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3348c987, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@110620d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3eb9c575, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@722b2728, org.springframework.security.web.session.SessionManagementFilter@50bf795f, org.springframework.security.web.access.ExceptionTranslationFilter@6029f2a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@660296d5]
+ 2020-07-207 20:36:48 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:36:49 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:36:49 [main]  INFO application.Application - Started Application in 12.442 seconds (JVM running for 13.463)
+ 2020-07-207 20:37:01 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:38:01 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 2308 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:38:01 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:38:01 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:38:03 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:38:03 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 329ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:38:05 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:38:05 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:38:05 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:38:05 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:38:05 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:38:06 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:38:06 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:38:06 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:38:06 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:38:07 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:38:07 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:38:10 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:38:10 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:38:10 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:38:12 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37bda983, org.springframework.security.web.context.SecurityContextPersistenceFilter@315b5913, org.springframework.security.web.header.HeaderWriterFilter@1fd37440, org.springframework.security.web.csrf.CsrfFilter@7bf65e0f, org.springframework.security.web.authentication.logout.LogoutFilter@42576db9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4dd1d2bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5423a17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@915d7c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@284d4885, org.springframework.security.web.session.SessionManagementFilter@11574592, org.springframework.security.web.access.ExceptionTranslationFilter@756c67cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77c692b4]
+ 2020-07-207 20:38:12 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:38:12 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:38:12 [main]  INFO application.Application - Started Application in 12.36 seconds (JVM running for 13.167)
+ 2020-07-207 20:38:18 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:39:42 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 7704 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:39:42 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:39:42 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:39:44 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:39:44 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 209ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:39:47 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:39:47 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:39:47 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:39:47 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:39:47 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:39:48 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:39:48 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:39:48 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:39:49 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:39:49 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:39:50 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:39:52 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:39:52 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:39:53 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:39:54 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49122853, org.springframework.security.web.context.SecurityContextPersistenceFilter@525b8922, org.springframework.security.web.header.HeaderWriterFilter@5a8d676e, org.springframework.security.web.csrf.CsrfFilter@323e026d, org.springframework.security.web.authentication.logout.LogoutFilter@3b3546a3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70884875, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6caa4dc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46e388ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e97f115, org.springframework.security.web.session.SessionManagementFilter@7ba06506, org.springframework.security.web.access.ExceptionTranslationFilter@77ff14ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55638165]
+ 2020-07-207 20:39:55 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:39:55 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:39:55 [main]  INFO application.Application - Started Application in 13.865 seconds (JVM running for 15.071)
+ 2020-07-207 20:40:16 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:40:35 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Create new user: User [email=afs3w, password=af3fqf, firstName=21e2rf, lastName=wef32f, userRole=null]
+ 2020-07-207 20:40:40 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:40:56 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:45:44 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 8720 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:45:44 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:45:44 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:45:47 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:45:47 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:45:49 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:45:49 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:45:49 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:45:50 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:45:50 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:45:50 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:45:50 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:45:51 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:45:51 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:45:52 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:45:52 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:45:54 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:45:54 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:45:55 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:45:56 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bdcfcf, org.springframework.security.web.context.SecurityContextPersistenceFilter@323e026d, org.springframework.security.web.header.HeaderWriterFilter@3f322610, org.springframework.security.web.csrf.CsrfFilter@2bfc8558, org.springframework.security.web.authentication.logout.LogoutFilter@63dc3420, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fc1c7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79b63325, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41167ded, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6248cfab, org.springframework.security.web.session.SessionManagementFilter@6cf047cf, org.springframework.security.web.access.ExceptionTranslationFilter@7740b0ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a84338a]
+ 2020-07-207 20:45:56 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:45:57 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:45:57 [main]  INFO application.Application - Started Application in 13.437 seconds (JVM running for 14.293)
+ 2020-07-207 20:46:01 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:46:08 [http-nio-8080-exec-5]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:46:10 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:46:13 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:46:14 [http-nio-8080-exec-4]  INFO application.service.EntrantService - Find all faculties
+ 2020-07-207 20:47:01 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:49:07 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 7452 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:49:07 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:49:07 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:49:09 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:49:09 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 183ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:49:11 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:49:11 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:49:11 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:49:12 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:49:12 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:49:12 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:49:13 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:49:13 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:49:13 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:49:14 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:49:14 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:49:16 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:49:16 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:49:17 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:49:19 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31693a86, org.springframework.security.web.context.SecurityContextPersistenceFilter@1aed6f0b, org.springframework.security.web.header.HeaderWriterFilter@44a93f8a, org.springframework.security.web.csrf.CsrfFilter@7ba06506, org.springframework.security.web.authentication.logout.LogoutFilter@67a0ff25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3cf4dec7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@134c38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77a2688d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d2e517, org.springframework.security.web.session.SessionManagementFilter@6c5ae8fd, org.springframework.security.web.access.ExceptionTranslationFilter@1f0e2bdc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@370225c7]
+ 2020-07-207 20:49:19 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:49:19 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:49:19 [main]  INFO application.Application - Started Application in 13.172 seconds (JVM running for 14.363)
+ 2020-07-207 20:49:29 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:49:36 [http-nio-8080-exec-1]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:49:47 [http-nio-8080-exec-9]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:53:10 [main]  INFO application.Application - Starting Application on DESKTOP-L11NUD7 with PID 1196 (E:\Projects\Eclipse Projects\JA_Project\university\target\classes started by pc in E:\Projects\Eclipse Projects\JA_Project\university)
+ 2020-07-207 20:53:10 [main] DEBUG application.Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+ 2020-07-207 20:53:10 [main]  INFO application.Application - No active profile set, falling back to default profiles: default
+ 2020-07-207 20:53:11 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2020-07-207 20:53:11 [main]  INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 176ms. Found 4 JPA repository interfaces.
+ 2020-07-207 20:53:13 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+ 2020-07-207 20:53:13 [main]  INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+ 2020-07-207 20:53:13 [main]  INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+ 2020-07-207 20:53:14 [main]  INFO org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2020-07-207 20:53:14 [main]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+ 2020-07-207 20:53:15 [main]  INFO o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2020-07-207 20:53:15 [main]  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+ 2020-07-207 20:53:15 [main]  INFO o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ 2020-07-207 20:53:15 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+ 2020-07-207 20:53:16 [main]  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ 2020-07-207 20:53:16 [main]  INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+ 2020-07-207 20:53:18 [main]  INFO o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ 2020-07-207 20:53:19 [main]  INFO o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2020-07-207 20:53:19 [main]  WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2020-07-207 20:53:21 [main]  INFO o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70884875, org.springframework.security.web.context.SecurityContextPersistenceFilter@41938e1e, org.springframework.security.web.header.HeaderWriterFilter@41167ded, org.springframework.security.web.csrf.CsrfFilter@65fc8edc, org.springframework.security.web.authentication.logout.LogoutFilter@45707f76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58f7215c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77ff14ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ed51944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7019d619, org.springframework.security.web.session.SessionManagementFilter@36238b12, org.springframework.security.web.access.ExceptionTranslationFilter@2d4f67e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24a3d414]
+ 2020-07-207 20:53:21 [main]  INFO o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+ 2020-07-207 20:53:22 [main]  INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+ 2020-07-207 20:53:22 [main]  INFO application.Application - Started Application in 13.486 seconds (JVM running for 14.815)
+ 2020-07-207 20:53:26 [http-nio-8080-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2020-07-207 20:53:42 [http-nio-8080-exec-7]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:53:48 [http-nio-8080-exec-5]  INFO application.service.EntrantService - Find all entrants
+ 2020-07-207 20:53:52 [http-nio-8080-exec-3]  INFO application.service.EntrantService - Find all facultyRegistrations
+ 
