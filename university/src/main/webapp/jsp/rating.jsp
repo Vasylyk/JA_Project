@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ page contentType="text/html; charset=ISO-8859-1" pageEncoding="UTF-8"%>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
 
 
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
@@ -34,13 +35,15 @@
 	
 		<!-- Sidebar -->
 			<div class="w3-sidebar w3-light-grey w3-bar-block" style="width: 10%">
-				<h3 class="w3-bar-item">Menu</h3>
-				<a href="/home" class="w3-bar-item w3-button">Home</a> 
-				<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
-				<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
+			<h3 class="w3-bar-item">Menu</h3>
+			<a href="/home" class="w3-bar-item w3-button">Home</a> 
+			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
+			<a href="/ratingFaculties" class="w3-bar-item w3-button">Rating</a>
+			<security:authorize access="hasRole('ADMIN')">
 				<a href="/statements" class="w3-bar-item w3-button">Statements</a>
-				<a href="/ratingFaculties" class="w3-bar-item w3-button">Rating</a>
-			</div>
+				<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
+			</security:authorize>
+		</div>
 		
 		<!-- Page Content -->
 		<div style="margin-left: 10%">
