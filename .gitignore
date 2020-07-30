@@ -28,4 +28,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/spring_app_log_file.log
