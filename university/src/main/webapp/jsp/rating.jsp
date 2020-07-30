@@ -1,8 +1,9 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ page contentType="text/html; charset=ISO-8859-1" pageEncoding="UTF-8"%>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
@@ -17,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-	<title>Rating</title>
+	<title><spring:message code='rating.rating'/></title>
 	
 	<link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -34,45 +35,45 @@
 	<div class="container">
 	
 		<!-- Sidebar -->
-			<div class="w3-sidebar w3-light-grey w3-bar-block" style="width: 10%">
-			<h3 class="w3-bar-item">Menu</h3>
-			<a href="/home" class="w3-bar-item w3-button">Home</a> 
-			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
-			<a href="/ratingFaculties" class="w3-bar-item w3-button">Rating</a>
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width: 11%">
+			<h3 class="w3-bar-item"><spring:message code='sidebar.menu'/></h3>
+			<a href="/home" class="w3-bar-item w3-button"><spring:message code='sidebar.home'/></a> 
+			<a href="/faculties" class="w3-bar-item w3-button"><spring:message code='sidebar.registration_faculty'/></a>
+			<a href="/ratingFaculties" class="w3-bar-item w3-button"><spring:message code='sidebar.rating'/></a>
 			<security:authorize access="hasRole('ADMIN')">
-				<a href="/statements" class="w3-bar-item w3-button">Statements</a>
-				<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
+				<a href="/statements" class="w3-bar-item w3-button"><spring:message code='sidebar.statements'/></a>
+				<a href="/create-faculty" class="w3-bar-item w3-button"><spring:message code='sidebar.create_faculty'/></a> 
 			</security:authorize>
 		</div>
 		
 		<!-- Page Content -->
-		<div style="margin-left: 10%">
+		<div style="margin-left: 11%">
 				<div class="w3-container w3-teal">
-					<h2 style="float: left">Rating</h2>
+					<h2 style="float: left"><spring:message code='rating.rating'/></h2>
 					<div style="text-align: end">
 						<c:if test="${pageContext.request.userPrincipal.name != null}">
 	        				<form id="logoutForm" method="POST" action="${contextPath}/logout">
 	            				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 	        				</form>
 	
-	        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
+	        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
 	
 	    				</c:if>
 					</div>
 				</div>
 				
-				<h2 style = "margin-left: 2%">${currentFaculty.facultyName } faculty</h2>
-				<h2 style = "margin-left: 2%">Rating of entrants:</h2>
+				<h2 style = "margin-left: 2%">${currentFaculty.facultyName } <spring:message code='rating.faculty'/></h2>
+				<h2 style = "margin-left: 2%"><spring:message code='rating.rating_entrants'/></h2></h2>
 			
 				<table class = "all-abiturients" style = "margin-left: 2%">
 					<tr>
-						<th>#</th>
-						<th>First name</th>
-						<th>Second name</th>
-						<th>Photo</th>
-						<th>Marks</th>
-						<th>Average</th>
-						<th>Acception</th>
+						<th><spring:message code='rating.number'/></th>
+						<th><spring:message code='home.first_name'/></th>
+						<th><spring:message code='home.second_name'/></th>
+						<th><spring:message code='home.photo'/></th>
+						<th><spring:message code='home.marks'/></th>
+						<th><spring:message code='rating.average'/></th>
+						<th><spring:message code='rating.acception'/></th>
 					</tr>
 					<c:forEach items="${entrantsOfCurrentFaculty}" var="entrant">
 						<tr>

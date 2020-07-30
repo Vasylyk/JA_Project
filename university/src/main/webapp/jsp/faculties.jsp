@@ -2,6 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,35 +16,35 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Faculty Registration</title>
+<title><spring:message code='faculties.faculty_registration'/></title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
 	<div class="container">
 		<!-- Sidebar -->
-		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width: 10%">
-			<h3 class="w3-bar-item">Menu</h3>
-			<a href="/home" class="w3-bar-item w3-button">Home</a> 
-			<a href="/faculties" class="w3-bar-item w3-button">Registration on faculty</a>
-			<a href="/ratingFaculties" class="w3-bar-item w3-button">Rating</a>
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width: 11%">
+			<h3 class="w3-bar-item"><spring:message code='sidebar.menu'/></h3>
+			<a href="/home" class="w3-bar-item w3-button"><spring:message code='sidebar.home'/></a> 
+			<a href="/faculties" class="w3-bar-item w3-button"><spring:message code='sidebar.registration_faculty'/></a>
+			<a href="/ratingFaculties" class="w3-bar-item w3-button"><spring:message code='sidebar.rating'/></a>
 			<security:authorize access="hasRole('ADMIN')">
-				<a href="/statements" class="w3-bar-item w3-button">Statements</a>
-				<a href="/create-faculty" class="w3-bar-item w3-button">Create faculty</a> 
+				<a href="/statements" class="w3-bar-item w3-button"><spring:message code='sidebar.statements'/></a>
+				<a href="/create-faculty" class="w3-bar-item w3-button"><spring:message code='sidebar.create_faculty'/></a> 
 			</security:authorize>
 		</div>
 
 		<!-- Page Content -->
-		<div style="margin-left: 10%">
+		<div style="margin-left: 11%">
 			<div class="w3-container w3-teal">
-				<h2 style="float: left">Registration</h2>
+				<h2 style="float: left"><spring:message code='faculties.registration'/></h2>
 				<div style="text-align: end">
 					<c:if test="${pageContext.request.userPrincipal.name != null}">
         				<form id="logoutForm" method="POST" action="${contextPath}/logout">
             				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         				</form>
 
-        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
+        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
 
     				</c:if>
 				</div>
@@ -53,14 +55,14 @@
 					<div class="w3-card-4" style="width: 30%">
 						<div class="w3-container w3-center" style="padding: 0">
 							<h2>${currentFaculty.facultyName}</h2>
-							<p>Number of student: ${currentFaculty.numberOfStudents}</p>
+							<p><spring:message code='faculties.number_students'/> ${currentFaculty.numberOfStudents}</p>
 							<p>
-								List of subjects:<br>
+								<spring:message code='faculties.list_subjects'/><br>
 								${currentFaculty.firstSubject}<br>
 								${currentFaculty.secondSubject}<br>
 								${currentFaculty.thirdSubject}<br>
 							</p>
-							<a href="faculty-registration?currentFacultyId=${currentFaculty.id}&currentUserEmail=${pageContext.request.userPrincipal.name}">Choose this faculty</a>
+							<a href="faculty-registration?currentFacultyId=${currentFaculty.id}&currentUserEmail=${pageContext.request.userPrincipal.name}"><spring:message code='faculties.chose_this_faculty'/></a>
 						</div>
 					</div>
 				</div>
