@@ -18,13 +18,22 @@
 	
 	<link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
+<div id="login">
 <div class="container">
+	
 
-    <form:form method="POST" modelAttribute="userForm" class="form-signin">
-        <h2 class="form-signin-heading">Create your account</h2>
+	<div id="login-row" class="row justify-content-center align-items-center">
+    <div id="login-column" class="col-md-6">
+    <div id="login-box" class="col-md-12" style = "height: 330px">
+    <form:form method="POST" modelAttribute="userForm" class="form-signin form">
+        <h2 class="form-signin-heading text-center text-info">Create your account</h2>
         
         <spring:bind path="firstName">
             <div class="form-group ${status.error ? 'has-error' : ''}">
@@ -62,7 +71,10 @@
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
     </form:form>
-
+	</div>
+	</div>
+	</div>
+</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
