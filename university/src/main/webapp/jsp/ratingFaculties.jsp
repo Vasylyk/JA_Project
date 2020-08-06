@@ -51,8 +51,8 @@
 			</div>
 			
 			<c:forEach items="${faculties}" var="currentFaculty">
-				<div class="w3-container" style="margin-bottom: 2%">
-					<div class="w3-card-4" style="width: 30%">
+				<div class="w3-container" style="margin-top: 2%">
+					<div class="w3-card-4" style="width: 40%; margin-left: 2%">
 						<div class="w3-container w3-center" style="padding: 0">
 							<h2>${currentFaculty.facultyName}</h2>
 							<p><spring:message code='faculties.number_students'/> ${currentFaculty.numberOfStudents}</p>
