@@ -22,11 +22,12 @@ public class UserService {
 	 private PasswordEncoder bCryptPasswordEncoder;
 
 
-	    public void save(User user) {
+	    public User save(User user) {
 	    	logger.info("Create new user: "+user);
 	        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
 	        user.setUserRole(UserRole.USER);
 	        userRepository.save(user);
+	        return user;
 	    }
 	    
 	    public User findUserByEmail (String email) {
