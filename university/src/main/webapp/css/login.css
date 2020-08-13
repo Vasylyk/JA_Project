@@ -17,3 +17,13 @@ body {
 #login .container #login-row #login-column #login-box #login-form #register-link {
   margin-top: -85px;
 }
+
+.text-color {
+	color: #009688
+}
+
+.btn-color {
+	color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+}

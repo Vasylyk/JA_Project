@@ -1,0 +1,15 @@
+.tables{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+.tables td, 
+.table th {
+	border-top: 1px solid gray;
+}
+
+.h2-green {
+	text-align: center;
+	color: #009688;
+}

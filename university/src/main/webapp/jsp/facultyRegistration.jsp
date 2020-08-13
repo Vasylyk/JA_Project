@@ -42,7 +42,7 @@
             				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         				</form>
 
-        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
+        				<h2>${pageContext.request.userPrincipal.name} | <button onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></button></h2>
 
     				</c:if>
 				</div>

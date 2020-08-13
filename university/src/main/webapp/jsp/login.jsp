@@ -48,12 +48,12 @@
         <div id="login-column" class="col-md-6">
         <div id="login-box" class="col-md-12">
 	    <form method="POST" action="${contextPath}/login" class="form-signin form" id="login-form" style = "height: 350px">
-	        <h2 class="form-heading text-center text-info" ><spring:message code="login.login" /></h2>
+	        <h2 class="form-heading text-center text-color" ><spring:message code="login.login" /></h2>
 	
 	        <div class="form-group ${error != null ? 'has-error' : ''}">
 	            <span>${message}</span>
 	            
-	            <div class="text-center text-info">
+	            <div class="text-center text-color">
 					<fieldset>
 						<label><spring:message code="login.choose_language" /></label> <select
 							id="locales">
@@ -74,7 +74,7 @@
 				
 				<div class="form-group">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-	            <button class="btn btn-lg btn-primary btn-block" class="btn btn-info btn-md" type="submit" ><spring:message code="login.login" /></button>
+	            <button class="btn btn-lg btn-color btn-block" class="btn btn-info btn-md" type="submit" ><spring:message code="login.login" /></button>
 	            </div>
 	            
 	            <div id="register-link" class="form-group" style = "padding-top: 80px; text-align: center">

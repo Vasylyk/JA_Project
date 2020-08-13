@@ -27,8 +27,8 @@ public class TestUtils {
 	
 	public static FacultyRegistration createFacultyRegistration () {
 		FacultyRegistration facultyRegistration = new FacultyRegistration();
-		facultyRegistration.setUser(new User(1,"email", "password", "firstName", "lastName", UserRole.USER));
-		facultyRegistration.setFaculty(new Faculty(2, 100, FacultyName.DIPLOMACY, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE));
+		facultyRegistration.setUser(new User(1000000,"email", "password", "firstName", "lastName", UserRole.USER));
+		facultyRegistration.setFaculty(new Faculty(2000000, 100, FacultyName.DIPLOMACY, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE));
 		facultyRegistration.setFirstSubjectMark(100);
 		facultyRegistration.setSecondSubjectMark(100);
 		facultyRegistration.setThirdSubjectMark(100);
@@ -37,8 +37,8 @@ public class TestUtils {
 	
 	public static Entrant createEntrant() {
 		Entrant entrant = new Entrant();
-		entrant.setUser(new User(3,"email", "password", "firstName", "lastName", UserRole.USER));
-		entrant.setFaculty(new Faculty(4, 100, FacultyName.DIPLOMACY, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE));
+		entrant.setUser(new User(3000000,"email", "password", "firstName", "lastName", UserRole.USER));
+		entrant.setFaculty(new Faculty(4000000, 100, FacultyName.DIPLOMACY, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE, Subjects.FOREIGN_LANGUAGE));
 		entrant.setFirstSubjectMark(100);
 		entrant.setSecondSubjectMark(100);
 		entrant.setThirdSubjectMark(100);

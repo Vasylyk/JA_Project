@@ -35,7 +35,7 @@
     <div id="login-column" class="col-md-6">
     <div id="login-box" class="col-md-12" style = "height: 330px">
     <form:form method="POST" modelAttribute="userForm" class="form-signin form">
-        <h2 class="form-signin-heading text-center text-info"><spring:message code='registration.create_account'/></h2>
+        <h2 class="form-signin-heading text-center text-color"><spring:message code='registration.create_account'/></h2>
         
         <spring:bind path="firstName">
             <div class="form-group ${status.error ? 'has-error' : ''}">
@@ -75,7 +75,7 @@
 
       
 
-        <button class="btn btn-lg btn-primary btn-block" type="submit"><spring:message code='registration.create'/></button>
+        <button class="btn btn-lg btn-color btn-block" type="submit"><spring:message code='registration.create'/></button>
     </form:form>
 	</div>
 	</div>

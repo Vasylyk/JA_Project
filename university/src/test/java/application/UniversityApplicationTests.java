@@ -101,7 +101,7 @@ class UniversityApplicationTests {
 	}
 	
 	@Test
-	public void testSaveandFindByIdEntrant() {
+	public void testSaveAndFindByIdEntrant() {
 		Entrant entrant = TestUtils.createEntrant();
 		Entrant save = entrantService.save(entrant);
 		Entrant entrantFromDB = entrantService.findEntrantById(save.getId());

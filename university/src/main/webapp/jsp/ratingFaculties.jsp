@@ -18,6 +18,7 @@
 
 <title><spring:message code='rating.rating'/></title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
             				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         				</form>
 
-        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
+        				<h2>${pageContext.request.userPrincipal.name} | <button onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></button></h2>
 
     				</c:if>
 				</div>
@@ -54,9 +55,9 @@
 				<div class="w3-container" style="margin-top: 2%">
 					<div class="w3-card-4" style="width: 40%; margin-left: 2%">
 						<div class="w3-container w3-center" style="padding: 0">
-							<h2>${currentFaculty.facultyName}</h2>
+							<h2  class = "h2-green">${currentFaculty.facultyName}</h2>
 							<p><spring:message code='faculties.number_students'/> ${currentFaculty.numberOfStudents}</p>
-							<a href="rating?currentFacultyId=${currentFaculty.id}"><spring:message code='rating.show_rating'/></a>
+							<a href="rating?currentFacultyId=${currentFaculty.id}" class = "h2-green"><spring:message code='rating.show_rating'/></a>
 						</div>
 					</div>
 				</div>
