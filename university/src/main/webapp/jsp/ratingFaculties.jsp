@@ -51,17 +51,20 @@
 				</div>
 			</div>
 			
-			<c:forEach items="${faculties}" var="currentFaculty">
-				<div class="w3-container" style="margin-top: 2%">
-					<div class="w3-card-4" style="width: 40%; margin-left: 2%">
-						<div class="w3-container w3-center" style="padding: 0">
-							<h2  class = "h2-green">${currentFaculty.facultyName}</h2>
-							<p><spring:message code='faculties.number_students'/> ${currentFaculty.numberOfStudents}</p>
-							<a href="rating?currentFacultyId=${currentFaculty.id}" class = "h2-green"><spring:message code='rating.show_rating'/></a>
-						</div>
-					</div>
-				</div>
-			</c:forEach>
+			<table class = "tables ">
+				<tr>
+					<th><spring:message code='home.faculty_name'/></th>
+					<th><spring:message code='faculties.number_students'/></th>
+					<th></th>
+				</tr>
+				<c:forEach items="${faculties}" var="currentFaculty">
+					<tr>
+						<td class = "h2-green">${currentFaculty.facultyName}</td>
+						<td>${currentFaculty.numberOfStudents}</td>
+						<td><a href="rating?currentFacultyId=${currentFaculty.id}" class = "h2-green"><spring:message code='rating.show_rating'/></a></td>
+					</tr>
+				</c:forEach>
+			</table>
 			
 		</div>
 	</div>
