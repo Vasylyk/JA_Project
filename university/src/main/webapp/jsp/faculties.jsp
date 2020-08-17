@@ -18,6 +18,7 @@
 
 <title><spring:message code='faculties.faculty_registration'/></title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -44,29 +45,28 @@
             				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         				</form>
 
-        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
+        				<h2>${pageContext.request.userPrincipal.name} | <button onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></button></h2>
 
     				</c:if>
 				</div>
 			</div>
 			
-			<c:forEach items="${faculties}" var="currentFaculty">
-				<div class="w3-container" style="margin-bottom: 2%">
-					<div class="w3-card-4" style="width: 30%">
-						<div class="w3-container w3-center" style="padding: 0">
-							<h2>${currentFaculty.facultyName}</h2>
-							<p><spring:message code='faculties.number_students'/> ${currentFaculty.numberOfStudents}</p>
-							<p>
-								<spring:message code='faculties.list_subjects'/><br>
-								${currentFaculty.firstSubject}<br>
-								${currentFaculty.secondSubject}<br>
-								${currentFaculty.thirdSubject}<br>
-							</p>
-							<a href="faculty-registration?currentFacultyId=${currentFaculty.id}&currentUserEmail=${pageContext.request.userPrincipal.name}"><spring:message code='faculties.chose_this_faculty'/></a>
-						</div>
-					</div>
-				</div>
-			</c:forEach>
+			<table class = "tables ">
+				<tr>
+					<th><spring:message code='home.faculty_name'/></th>
+					<th><spring:message code='faculties.number_students'/></th>
+					<th><spring:message code='faculties.list_subjects'/></th>
+					<th></th>
+				</tr>
+				<c:forEach items="${faculties}" var="currentFaculty">
+					<tr>
+						<td class = "h2-green">${currentFaculty.facultyName}</td>
+						<td>${currentFaculty.numberOfStudents}</td>
+						<td>${currentFaculty.firstSubject}<br>${currentFaculty.secondSubject}<br>${currentFaculty.thirdSubject}</td>
+						<td><a href="faculty-registration?currentFacultyId=${currentFaculty.id}&currentUserEmail=${pageContext.request.userPrincipal.name}" class = "h2-green"><spring:message code='faculties.chose_this_faculty'/></a></td>
+					</tr>
+				</c:forEach>
+			</table>
 		</div>
 	</div>
 

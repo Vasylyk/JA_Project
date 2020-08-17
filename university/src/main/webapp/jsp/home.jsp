@@ -21,13 +21,7 @@
 	
 	<link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<style>
-		.all-abiturients,
-		.all-abiturients td,
-		.all-abiturients th { border: 1px solid black; }
-		
-		table {border-collapse: collapse;}
-	</style>
+	<link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
@@ -55,15 +49,15 @@
             				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         				</form>
 
-        				<h2>${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></a></h2>
+        				<h2>${pageContext.request.userPrincipal.name} | <button onclick="document.forms['logoutForm'].submit()"><spring:message code='logout.logout'/></button></h2>
 
     				</c:if>
 				</div>
 			</div>
 			
-			<h2 style = "margin-left: 2%"><spring:message code='home.all_entrants'/></h2>
+			<h2 class = "h2-green"><spring:message code='home.all_entrants'/></h2>
 			
-			<table class = "all-abiturients" style = "margin-left: 2%">
+			<table class = "tables ">
 				<tr>
 					<th><spring:message code='home.first_name'/></th>
 					<th><spring:message code='home.second_name'/></th>
